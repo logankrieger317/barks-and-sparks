@@ -1,8 +1,11 @@
 #petsIcon{
     color: red;
-
+    /* object-fit: contain; */
+    font-size: xx-large;
 }
 
 #personIcon, #messagesIcon{
     color: rgb(60, 59, 59);
+    font-size: xx-large;
 }
+
