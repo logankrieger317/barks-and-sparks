@@ -20,7 +20,7 @@ function App() {
         <Route path='/profile' element={<div>Profile</div>}/>
         <Route path='/chat'  element={<Chat />}/>
         <Route path='/' element={<Card/>}/>
-        {/* <Route path='/swipe' element={<SwipeButtons/>}/> */}
+        
        
       </Routes>
     </BrowserRouter>
@@ -32,10 +32,3 @@ function App() {
 
 export default App;
 
-{/* Dating card */}
-
-{/* button menu below */}
-
-{/* messages screen */}
-
-{/* individual message */}
