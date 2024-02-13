@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import TinderCard from 'react-tinder-card'
 import '../Css/Card.css';
-
 
 function Card() {
 
@@ -19,18 +18,9 @@ function Card() {
     ])
         
 
-    const onSwipe = (direction) => {
-  console.log('You swiped: ' + direction)
-}
-
-const onCardLeftScreen = (myIdentifier) => {
-  console.log(myIdentifier + ' left the screen')
-}
-
-
   return (
     <div>
-    <h1>Card</h1>
+    
     <div className='tinderCards_cardContainer'>
       
         {people.map(person =>(
