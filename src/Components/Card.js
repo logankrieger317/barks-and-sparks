@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import TinderCard from 'react-tinder-card'
 import '../Css/Card.css';
+import SwipeButtons from './SwipeButtons';
 
 function Card() {
 
@@ -17,6 +18,7 @@ function Card() {
          },
     ])
         
+
 
   return (
     <div>
@@ -39,6 +41,7 @@ function Card() {
               
             </TinderCard>
         ))}
+            
     </div>
     </div>
      
