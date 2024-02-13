@@ -1,11 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import TinderCard from 'react-tinder-card'
-import '../Css/Card.css';
-import SwipeButtons from './SwipeButtons';
+import './Card.css';
+
+
+
 
 function Card() {
-
+    
     const [people, setPeople] = useState([
+
+  
+
+
         { 
             name: "John Doe",
             url: "https://images.unsplash.com/photo-1492447273231-0f8fecec1e3a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

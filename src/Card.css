@@ -1,13 +1,14 @@
 .card{
     position: relative;
     width:600px;
-    padding:20px;
+    padding:10px;
     max-width: 85vw;
     height: 50vh;
     border-radius: 20px;
     background-size: cover;
     background-position: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    
 }
 
 .card > h3{
@@ -20,8 +21,18 @@
     display: flex;
     justify-content: center;
     margin-top:5vh;
+    
 }
 
 .swipe{
     position:absolute; 
+    
+}
+
+.card {
+    transition: transform 0.5s ease;
+}
+
+.swipe-right {
+    transform: translateX(200px);
 }

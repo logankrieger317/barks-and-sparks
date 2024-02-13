@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import './Css/Icons.css'
-import Header from './Components/Header';
+import './Icons.css'
+import Header from './Header';
 import { BrowserRouter,Router,Route,Routes } from "react-router-dom";
-import Chat from './Components/Chat';
-import Card from './Components/Card';
-import SwipeButtons from './Components/SwipeButtons';
+import Chat from './Chat';
+import Card from './Card';
+import SwipeButtons from './SwipeButtons';
 
 
 
