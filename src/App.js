@@ -12,7 +12,7 @@ import SwipeButtons from './Components/SwipeButtons';
 
 function App() {
   return (
-    
+    <>
     <div className="App">
     <Header/> 
     <BrowserRouter>
@@ -24,10 +24,9 @@ function App() {
        
       </Routes>
     </BrowserRouter>
-    <SwipeButtons/>
-    
     </div>
-    
+    <SwipeButtons />
+    </>
   );
 }
 
